@@ -7,6 +7,7 @@ from skimage.io import imread
 # download the image
 img_url = 'https://upload.wikimedia.org/wikipedia/commons/7/72/End_of_the_World_11_16_2016_-2_%2831149433505%29.jpg'
 
+im = imread(img_url))
 
 st.image(im, caption='image from wikimedia commons',
          use_column_width=True)
